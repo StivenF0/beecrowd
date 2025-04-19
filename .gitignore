@@ -1,0 +1,3 @@
+# Ignore the files in "out/"
+out/*
+!out/.keep

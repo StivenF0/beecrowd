@@ -1,0 +1,22 @@
+{
+    "name": "beecrowd dev",
+    "dockerComposeFile": [
+        "./docker-compose.yaml"
+    ],
+    "service": "dev",
+    "shutdownAction": "stopCompose",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-vscode.cpptools-extension-pack"
+            ],
+            "settings": {
+                "terminal.integrated.shell.linux": "/bin/bash",
+                "C_Cpp.default.cppStandard": "c++20", // Set C++ standard
+                "C_Cpp.default.intelliSenseMode": "gcc-x64",
+                "editor.formatOnSave": true
+            }
+        }
+    }
+}
