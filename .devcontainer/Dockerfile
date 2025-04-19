@@ -10,6 +10,7 @@ RUN apk update && apk upgrade && \
         git \
         bash \
         curl \
+        openssh \
         && rm -rf /var/cache/apk/*
 
 # Create a non-root user for development
